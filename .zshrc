@@ -41,6 +41,7 @@ zinit light Aloxaf/fzf-tab
 zinit snippet OMZP::git
 zinit snippet OMZP::composer
 zinit snippet OMZP::command-not-found
+zinit snippet OMZP::laravel
 
 # Load completions
 autoload -U compinit && compinit
@@ -78,7 +79,6 @@ zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color=always $realpath
 # Aliases
 alias ls='ls --color'
 alias ll='ls -l'
-alias a='php artisan'
 
 # Shell integrations
 eval "$(fzf --zsh)"
