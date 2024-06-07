@@ -79,6 +79,8 @@ zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color=always $realpath
 # Aliases
 alias ls='ls --color'
 alias ll='ls -l'
+alias wip='git add . && git commit -m '\''chore: Work in progress'\'
+alias nope='git reset --hard && git clean -f -d && git checkout HEAD'
 
 # Shell integrations
 eval "$(fzf --zsh)"
