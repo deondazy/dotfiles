@@ -129,4 +129,9 @@ else
     fi
 fi
 unset __conda_setup
+
+function edit_zshrc() {
+  nvim ~/.zshrc && source ~/.zshrc
+}
+
 # <<< conda initialize <<<
